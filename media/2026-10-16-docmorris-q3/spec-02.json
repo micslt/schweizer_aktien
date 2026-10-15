@@ -1,0 +1,3 @@
+{"kind":"bar","title":"DocMorris: Rx-Umsatz Deutschland","subtitle":"Aussenumsatz mit rezeptpflichtigen Medikamenten in CHF Mio., pro Quartal",
+"labels":["Q2 2026","Q3 2026"],"series":[{"name":"Rx-Aussenumsatz","values":[79.8,108.1]}],
+"unit":"CHF Mio.","decimals":1,"source":"DocMorris Medienmitteilungen vom 15.7. und 15.10.2026","note":"Wachstum zum Vorjahresquartal in Lokalwährung: Q2 plus 45.8 %, Q3 plus 78.3 %"}
