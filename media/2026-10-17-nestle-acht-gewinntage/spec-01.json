@@ -1,0 +1,4 @@
+{"kind":"line","title":"Nestlé Aktie: Erholung vom Tief","subtitle":"Schlusskurs an der SIX in CHF, 1. bis 14. Oktober 2026",
+"labels":["1.10.","2.10.","5.10.","6.10.","7.10.","8.10.","9.10.","12.10.","13.10.","14.10."],
+"series":[{"name":"Nestlé","values":[74.63,74.78,74.48,75.2,75.56,76.0,76.04,76.38,77.3,78.89]}],
+"unit":"CHF","decimals":2,"source":"Yahoo Finance (NESN.SW), Schlusskurse","note":"Tiefster Schlusskurs seit Mitte Februar am 5.10. (CHF 74.48), danach sieben Gewinntage bis 14.10. Am 15.10. vormittags CHF 80.86 (cash.ch)."}

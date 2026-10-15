@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-17-nestle-acht-gewinntage",
+  "status": "ready",
+  "type": "POST",
+  "publish_at": "2026-10-17T09:00:00",
+  "timezone": "Europe/Zurich",
+  "caption": "Nestlé hat an acht Handelstagen in Folge zugelegt, Stand Donnerstag, 15. Oktober 2026.\n\nAm Donnerstagvormittag notierte die Aktie bei CHF 80.86, ein Plus von 2.5 % zum Vortag und der höchste Stand seit zwei Monaten (cash.ch mit Bloomberg-Daten, 10:23 Uhr).\n\nDer Anstieg kommt von einem tiefen Niveau. Am 5. Oktober schloss die Aktie bei CHF 74.48, dem tiefsten Stand seit Mitte Februar 2026. Seither ging es an jedem Handelstag aufwärts, von CHF 75.20 am 6. Oktober bis CHF 78.89 am 14. Oktober (Schlusskurse SIX laut Yahoo Finance).\n\nWas cash.ch als Gründe nennt: Defensive Titel wie Swisscom, Sunrise und Novartis waren in der unsicheren Börsenlage wieder gefragt. Die EU-Kommission hat am 13. Oktober das Wasser-Joint-Venture mit Platinum Equity genehmigt. Die Sparte mit Perrier, San Pellegrino und Henniez wird mit 4.9 Mrd. Euro bewertet, Nestlé erhält CHF 2.8 Mrd. und hält künftig 50 %. Und seit der von Russland angeordneten Fremdverwaltung der dortigen Geschäfte Mitte September gab es keine neuen Negativmeldungen.\n\nCEO Philipp Navratil, seit September 2025 im Amt, richtet den Konzern auf wachstums- und margenstärkere Bereiche aus. Er räumte ein, dass Investoren weiterhin skeptisch sind, ob Nestlé seine Ziele erreicht.\n\nDer nächste Prüfstein folgt bald: Die Neunmonatszahlen publiziert Nestlé am 22. Oktober 2026.\n\nVerfolgst du den Umbau bei Nestlé?\n\nKeine Anlageberatung. Eigene Recherche.",
+  "first_comment": "#schweizeraktien #smi #börseschweiz #nestle #nesn #nahrungsmittel #konsumgüter #vevey #kursserie #aktienkurs #wassergeschäft #perrier #aktien #investieren #finanzen #schweiz #six #börse #finanzbildung #geldanlage",
+  "media": [
+    "media/2026-10-17-nestle-acht-gewinntage/01.png",
+    "media/2026-10-17-nestle-acht-gewinntage/02.png"
+  ],
+  "media_alt": [
+    "Liniendiagramm Nestlé Schlusskurs in CHF vom 1. bis 14. Oktober 2026, Tief 74.48 am 5. Oktober, Anstieg auf 78.89 am 14. Oktober. Quelle Yahoo Finance.",
+    "Kennzahlen zur Nestlé-Kursserie: Tief CHF 74.48 am 5.10., CHF 80.86 am 15.10. vormittags, Wassersparte mit 4.9 Mrd. Euro bewertet, Neunmonatszahlen am 22. Oktober. Quelle cash.ch."
+  ],
+  "ai_generated_media": false,
+  "sources": [
+    "https://www.cash.ch/news/top-news/acht-tage-kursgewinne-in-folge-nestle-aktie-erreicht-zwei-monats-hoch-976900",
+    "https://www.cash.ch/news/top-news/nestle-erhalt-eu-genehmigung-fur-auslagerung-des-wassergeschafts-976300",
+    "https://finance.yahoo.com/quote/NESN.SW/history/"
+  ],
+  "metricool_uuid": null,
+  "notes": "Geplant für Samstag. Alle Aussagen sind mit Datum versehen und bleiben korrekt, auch wenn die Serie am Freitag 16.10. endet. Optional nach Börsenschluss am 15.10. den Schlusskurs in spec-01.json ergänzen und 01.png neu rendern."
+}
