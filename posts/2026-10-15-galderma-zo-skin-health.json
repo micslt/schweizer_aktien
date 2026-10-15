@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-15-galderma-zo-skin-health",
+  "status": "ready",
+  "type": "POST",
+  "publish_at": "2026-10-15T18:00:00",
+  "timezone": "Europe/Zurich",
+  "caption": "Galderma kauft die US-Hautpflegemarke ZO Skin Health für USD 1.5 Mrd.\n\nDer Dermatologiekonzern aus Zug hat die Übernahme am 14. Oktober 2026 angekündigt. Der Preis entspricht dem Unternehmenswert und wird vollständig in bar bezahlt, finanziert aus liquiden Mitteln und Bankkrediten.\n\nZO Skin Health mit Sitz in Irvine, Kalifornien, wurde vom Dermatologen Zein Obagi gegründet. Die Produkte werden über Ärztinnen, Ärzte und Medical Spas vertrieben, in mehr als 40 Ländern mit über 16'500 Kundenkonten. In den zwölf Monaten bis Juni 2026 lag der Nettoumsatz bei rund USD 330 Mio.\n\nVerkäufer sind Fonds von Blackstone Tactical Opportunities und die Familie Obagi. Der Abschluss wird im vierten Quartal 2026 oder Anfang 2027 erwartet, vorbehaltlich behördlicher Genehmigungen.\n\nGalderma rechnet damit, dass die Core-EBITDA-Marge 2027 leicht verwässert wird und ab 2028 etwa dem Gruppendurchschnitt entspricht. Auf den Core-Gewinn je Aktie soll der Zukauf im ersten vollen Geschäftsjahr nach Abschluss neutral wirken.\n\nCEO Flemming Ørnskov sieht erhebliche Chancen, das Wachstum von ZO durch Investitionen in Innovation und Vertrieb neu zu beleben. Die Marke ergänzt Cetaphil und Alastin im Bereich der ärztlich vertriebenen Hautpflege.\n\nDie Aktie schloss am 14. Oktober bei CHF 171.85, das sind 2.7 % mehr als am Vortag.\n\nPasst ZO Skin Health aus deiner Sicht ins Portfolio von Galderma?\n\nKeine Anlageberatung. Eigene Recherche.",
+  "first_comment": "#schweizeraktien #smi #börseschweiz #galderma #gald #dermatologie #hautpflege #zoskinhealth #übernahme #akquisition #aktien #investieren #finanzen #schweiz #six #börse #finanzbildung #geldanlage #zug",
+  "media": [
+    "media/2026-10-15-galderma-zo-skin-health/01.png",
+    "media/2026-10-15-galderma-zo-skin-health/02.png"
+  ],
+  "media_alt": [
+    "Kennzahlen zur Übernahme von ZO Skin Health durch Galderma: USD 1.5 Mrd. Unternehmenswert, USD 330 Mio. Umsatz, über 40 Länder, Margeneffekt ab 2028. Quelle Galderma Medienmitteilung.",
+    "Liniendiagramm Galderma Schlusskurs in CHF vom 15. September bis 14. Oktober 2026, Anstieg von 153.30 auf 171.85. Quelle Yahoo Finance."
+  ],
+  "ai_generated_media": false,
+  "sources": [
+    "https://www.galderma.com/news/galderma-signs-agreement-acquire-zo-skin-health",
+    "https://www.cash.ch/news/galderma-erganzt-portfolio-mit-15-milliarden-ubernahme-976580",
+    "https://finance.yahoo.com/quote/GALD.SW/history/"
+  ],
+  "metricool_uuid": null,
+  "notes": "Schlusskurse aus Yahoo Finance (GALD.SW). Bildspezifikationen liegen als spec-01.json und spec-02.json im Medienordner."
+}

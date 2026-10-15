@@ -1,0 +1,4 @@
+{"kind":"line","title":"Galderma Aktie, letzter Monat","subtitle":"Schlusskurs an der SIX in CHF, 15. September bis 14. Oktober 2026",
+"labels":["15.9.","","17.9.","","21.9.","","23.9.","","25.9.","","29.9.","","1.10.","","5.10.","","7.10.","","9.10.","","","14.10."],
+"series":[{"name":"Galderma","values":[153.3,154.05,157.85,158.15,161.25,163.8,160.9,162.25,163.0,162.0,165.85,165.85,160.8,160.55,161.45,161.35,162.6,162.8,164.95,168.15,167.35,171.85]}],
+"unit":"CHF","decimals":2,"source":"Yahoo Finance (GALD.SW), Schlusskurse","note":"Übernahme von ZO Skin Health am 14.10.2026 angekündigt"}
