@@ -82,6 +82,8 @@ Niemals `status` auf `scheduled` oder `published` setzen. Niemals `publish_at` i
 
 ## Übergabe an Claude (Chat)
 
+Repo: https://github.com/micslt/schweizer_aktien (public, Branch `main`). Raw-Basis: `https://raw.githubusercontent.com/micslt/schweizer_aktien/main/`, z.B. `…/main/posts/<slug>.json` und `…/main/media/<slug>/01.png`.
+
 Claude (Chat) liest alle JSON-Dateien mit `status: "ready"` über die GitHub-API bzw. raw.githubusercontent.com, zeigt Michael die Captions zur Freigabe, plant die Beiträge in Metricool (Brand 7441902) und meldet pro Beitrag die `metricool_uuid` zurück. Michael oder Claude Code tragen danach die UUID ein und setzen `status: "scheduled"`.
 
 ## Werkzeuge im Repo
