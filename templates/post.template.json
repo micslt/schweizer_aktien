@@ -1,0 +1,15 @@
+{
+  "slug": "YYYY-MM-DD-slug",
+  "status": "draft",
+  "type": "POST",
+  "publish_at": "YYYY-MM-DDT07:30:00",
+  "timezone": "Europe/Zurich",
+  "caption": "",
+  "first_comment": "#schweizeraktien #smi #börseschweiz",
+  "media": [],
+  "media_alt": [],
+  "ai_generated_media": false,
+  "sources": [],
+  "metricool_uuid": null,
+  "notes": ""
+}
