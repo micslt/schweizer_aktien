@@ -24,6 +24,7 @@ Mehrere Serien ergeben gruppierte Balken bzw. mehrere Linien.
 """
 import json
 import sys
+import textwrap
 from pathlib import Path
 
 import matplotlib
@@ -77,13 +78,17 @@ def render(spec, out):
         ax.set_xticklabels(labels)
         ax.margins(y=0.18)
     elif kind == "line":
+        xs = list(range(len(labels)))
         for i, s in enumerate(series):
-            ax.plot(labels, s["values"], color=PALETTE[i % len(PALETTE)], linewidth=4,
+            ax.plot(xs, s["values"], color=PALETTE[i % len(PALETTE)], linewidth=4,
                     marker="o", markersize=9, label=s.get("name"), zorder=3)
             last = s["values"][-1]
             ax.annotate(fmt_ch(last, decimals), (len(labels) - 1, last), xytext=(10, 0),
                         textcoords="offset points", va="center", fontsize=16,
                         color=PALETTE[i % len(PALETTE)], fontweight="bold")
+        ticks = [x for x, lab in zip(xs, labels) if lab]
+        ax.set_xticks(ticks)
+        ax.set_xticklabels([lab for lab in labels if lab])
         ax.margins(x=0.08, y=0.15)
     else:
         raise SystemExit(f"unbekannter kind: {kind}")
@@ -100,16 +105,27 @@ def render(spec, out):
         ax.legend(frameon=False, fontsize=15, loc="upper left", bbox_to_anchor=(0, 1.12), ncol=len(series))
 
     # Titelblock
-    fig.text(0.10, 0.90, spec["title"], fontsize=36, fontweight="bold", color=INK, va="top", wrap=True)
+    ty = 0.92
+    for line in textwrap.wrap(spec["title"], 30):
+        fig.text(0.10, ty, line, fontsize=36, fontweight="bold", color=INK, va="top")
+        ty -= 0.045
     if spec.get("subtitle"):
-        fig.text(0.10, 0.83, spec["subtitle"], fontsize=20, color=MUTED, va="top", wrap=True)
+        ty -= 0.012
+        for line in textwrap.wrap(spec["subtitle"], 62):
+            fig.text(0.10, ty, line, fontsize=20, color=MUTED, va="top")
+            ty -= 0.028
 
     # Fussnote: Hinweis, Quelle, Handle
-    y = 0.12
+    y = 0.14 if spec.get("note") else 0.12
+    line_h = 0.022
     if spec.get("note"):
-        fig.text(0.10, y, spec["note"], fontsize=15, color=MUTED, va="top", wrap=True)
-        y -= 0.035
-    fig.text(0.10, y, f"Quelle: {spec['source']}", fontsize=15, color=MUTED, va="top", wrap=True)
+        for line in textwrap.wrap(spec["note"], 78):
+            fig.text(0.10, y, line, fontsize=15, color=MUTED, va="top")
+            y -= line_h
+        y -= 0.012
+    for line in textwrap.wrap(f"Quelle: {spec['source']}", 78):
+        fig.text(0.10, y, line, fontsize=15, color=MUTED, va="top")
+        y -= line_h
     fig.text(0.10, 0.04, "Keine Anlageberatung. Eigene Recherche.", fontsize=14, color=MUTED, va="top")
     fig.text(0.94, 0.04, HANDLE, fontsize=14, color=INK, va="top", ha="right", fontweight="bold")
 
